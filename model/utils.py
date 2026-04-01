@@ -1,9 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from model.activations import sigmoid
-from sklearn.tree import export_graphviz
-import re,IPython,graphviz
-import pandas as pd
 
 
 def onehot_array(x,n_class):

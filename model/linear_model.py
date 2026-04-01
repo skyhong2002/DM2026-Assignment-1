@@ -21,11 +21,27 @@ class LinearModel():
 		if X.shape[1] == self.dim + 1:
 			return X
 		raise ValueError(f'Input feature dimension mismatch: expected {self.dim} (without bias) or {self.dim + 1} (with bias), got {X.shape[1]}')
-	def fit(self,X,y,lr,reg_type='',reg_lambda=0,n_iteration=50,val_ratio=.2):
+	def fit(
+		self,
+		X,
+		y,
+		lr,
+		reg_type='',
+		reg_lambda=0,
+		n_iteration=50,
+		val_ratio=.2,
+		verbose=True,
+		log_every=50,
+		plot_curve=True
+	):
 		'''
-		Fit data using gradient descent and l1/l2 regularization
+		Fit data using gradient descent and l1/l2 regularization.
+		Arguments `verbose`, `log_every`, and `plot_curve` are optional switches
+		for controlling console/logging behavior in large experiment sweeps.
 		'''
 		X = self._ensure_bias_column(X)
+		self.train_losses = []
+		self.val_losses = []
 		X_train,y_train,X_val,y_val = get_train_val(X,y,val_ratio)
 		for i in range(n_iteration):      
 			y_pred = self.act_fn(np.squeeze(X_train @ self.W))
@@ -49,10 +65,11 @@ class LinearModel():
 			y_pred = self.act_fn(np.squeeze(X_val @ self.W))
 			val_loss = self.loss_fn(y_val,y_pred)
 			self.val_losses.append(val_loss)
-			if (i+1) % 50 == 0:
+			if verbose and (i+1) % log_every == 0:
 				print(f'{i+1}. Training loss: {loss}, Val loss:{val_loss}')
 
-		plot_learning_curve(self.train_losses,self.val_losses)
+		if plot_curve:
+			plot_learning_curve(self.train_losses,self.val_losses)
 
 	def get_weight(self):
 		return self.W
