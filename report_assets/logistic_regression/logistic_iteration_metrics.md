@@ -1,0 +1,14 @@
+| dataset | learning_rate | n_iteration | Accuracy | Precision | Recall | F1-score | loss_curve_path |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| logistic_data_A | 0.0100 | 500 | 0.8775 | 0.8784 | 0.8986 | 0.8884 | report_assets/logistic_regression/logistic_data_A_iter_sweep_lr_0p01_iter_500.png |
+| logistic_data_A | 0.0100 | 1000 | 0.9025 | 0.9045 | 0.9171 | 0.9108 | report_assets/logistic_regression/logistic_data_A_iter_sweep_lr_0p01_iter_1000.png |
+| logistic_data_A | 0.0100 | 1500 | 0.9025 | 0.9083 | 0.9124 | 0.9103 | report_assets/logistic_regression/logistic_data_A_iter_sweep_lr_0p01_iter_1500.png |
+| logistic_data_B | 0.0100 | 500 | 0.7625 | 0.7600 | 0.8066 | 0.7826 | report_assets/logistic_regression/logistic_data_B_iter_sweep_lr_0p01_iter_500.png |
+| logistic_data_B | 0.0100 | 1000 | 0.7775 | 0.7783 | 0.8113 | 0.7945 | report_assets/logistic_regression/logistic_data_B_iter_sweep_lr_0p01_iter_1000.png |
+| logistic_data_B | 0.0100 | 1500 | 0.7775 | 0.7783 | 0.8113 | 0.7945 | report_assets/logistic_regression/logistic_data_B_iter_sweep_lr_0p01_iter_1500.png |
+| logistic_data_C | 0.0100 | 500 | 0.9456 | 0.9707 | 0.9303 | 0.9500 | report_assets/logistic_regression/logistic_data_C_iter_sweep_lr_0p01_iter_500.png |
+| logistic_data_C | 0.0100 | 1000 | 0.9744 | 0.9885 | 0.9651 | 0.9767 | report_assets/logistic_regression/logistic_data_C_iter_sweep_lr_0p01_iter_1000.png |
+| logistic_data_C | 0.0100 | 1500 | 0.9788 | 0.9897 | 0.9719 | 0.9807 | report_assets/logistic_regression/logistic_data_C_iter_sweep_lr_0p01_iter_1500.png |
+| logistic_data_D | 0.0100 | 500 | 0.9113 | 0.9346 | 0.9029 | 0.9185 | report_assets/logistic_regression/logistic_data_D_iter_sweep_lr_0p01_iter_500.png |
+| logistic_data_D | 0.0100 | 1000 | 0.9263 | 0.9394 | 0.9266 | 0.9330 | report_assets/logistic_regression/logistic_data_D_iter_sweep_lr_0p01_iter_1000.png |
+| logistic_data_D | 0.0100 | 1500 | 0.9256 | 0.9393 | 0.9255 | 0.9323 | report_assets/logistic_regression/logistic_data_D_iter_sweep_lr_0p01_iter_1500.png |

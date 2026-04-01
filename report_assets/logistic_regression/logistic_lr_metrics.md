@@ -1,0 +1,14 @@
+| dataset | learning_rate | n_iteration | Accuracy | Precision | Recall | F1-score | loss_curve_path |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| logistic_data_A | 0.1000 | 500 | 0.9050 | 0.9087 | 0.9171 | 0.9128 | report_assets/logistic_regression/logistic_data_A_lr_sweep_lr_0p1_iter_500.png |
+| logistic_data_A | 0.0100 | 500 | 0.8775 | 0.8784 | 0.8986 | 0.8884 | report_assets/logistic_regression/logistic_data_A_lr_sweep_lr_0p01_iter_500.png |
+| logistic_data_A | 0.0010 | 500 | 0.3875 | 0.4364 | 0.4424 | 0.4394 | report_assets/logistic_regression/logistic_data_A_lr_sweep_lr_0p001_iter_500.png |
+| logistic_data_B | 0.1000 | 500 | 0.7800 | 0.7793 | 0.8160 | 0.7972 | report_assets/logistic_regression/logistic_data_B_lr_sweep_lr_0p1_iter_500.png |
+| logistic_data_B | 0.0100 | 500 | 0.7625 | 0.7600 | 0.8066 | 0.7826 | report_assets/logistic_regression/logistic_data_B_lr_sweep_lr_0p01_iter_500.png |
+| logistic_data_B | 0.0010 | 500 | 0.3925 | 0.4286 | 0.4387 | 0.4336 | report_assets/logistic_regression/logistic_data_B_lr_sweep_lr_0p001_iter_500.png |
+| logistic_data_C | 0.1000 | 500 | 0.9762 | 0.9852 | 0.9719 | 0.9785 | report_assets/logistic_regression/logistic_data_C_lr_sweep_lr_0p1_iter_500.png |
+| logistic_data_C | 0.0100 | 500 | 0.9456 | 0.9707 | 0.9303 | 0.9500 | report_assets/logistic_regression/logistic_data_C_lr_sweep_lr_0p01_iter_500.png |
+| logistic_data_C | 0.0010 | 500 | 0.8406 | 0.8774 | 0.8290 | 0.8525 | report_assets/logistic_regression/logistic_data_C_lr_sweep_lr_0p001_iter_500.png |
+| logistic_data_D | 0.1000 | 500 | 0.9225 | 0.9330 | 0.9266 | 0.9298 | report_assets/logistic_regression/logistic_data_D_lr_sweep_lr_0p1_iter_500.png |
+| logistic_data_D | 0.0100 | 500 | 0.9113 | 0.9346 | 0.9029 | 0.9185 | report_assets/logistic_regression/logistic_data_D_lr_sweep_lr_0p01_iter_500.png |
+| logistic_data_D | 0.0010 | 500 | 0.8319 | 0.8668 | 0.8228 | 0.8442 | report_assets/logistic_regression/logistic_data_D_lr_sweep_lr_0p001_iter_500.png |

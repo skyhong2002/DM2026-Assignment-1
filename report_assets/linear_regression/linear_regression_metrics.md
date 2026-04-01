@@ -1,0 +1,14 @@
+| dataset | learning_rate | MSE | MAE | RMSE | R-squared | loss_curve_path |
+| --- | --- | --- | --- | --- | --- | --- |
+| linear_data_A | 0.1000 | 0.0134 | 0.1010 | 0.1156 | 0.5690 | report_assets/linear_regression/linear_data_A_loss_lr_0p1.png |
+| linear_data_A | 0.0100 | 0.0134 | 0.1010 | 0.1156 | 0.5690 | report_assets/linear_regression/linear_data_A_loss_lr_0p01.png |
+| linear_data_A | 0.0010 | 0.0832 | 0.2369 | 0.2884 | -1.6836 | report_assets/linear_regression/linear_data_A_loss_lr_0p001.png |
+| linear_data_B | 0.1000 | 0.2137 | 0.4038 | 0.4623 | 0.0448 | report_assets/linear_regression/linear_data_B_loss_lr_0p1.png |
+| linear_data_B | 0.0100 | 0.2137 | 0.4038 | 0.4623 | 0.0448 | report_assets/linear_regression/linear_data_B_loss_lr_0p01.png |
+| linear_data_B | 0.0010 | 0.2687 | 0.4404 | 0.5184 | -0.2011 | report_assets/linear_regression/linear_data_B_loss_lr_0p001.png |
+| linear_data_C | 0.1000 | 0.0132 | 0.0987 | 0.1148 | 0.9954 | report_assets/linear_regression/linear_data_C_loss_lr_0p1.png |
+| linear_data_C | 0.0100 | 0.0132 | 0.0987 | 0.1148 | 0.9954 | report_assets/linear_regression/linear_data_C_loss_lr_0p01.png |
+| linear_data_C | 0.0010 | 0.2852 | 0.4273 | 0.5341 | 0.8994 | report_assets/linear_regression/linear_data_C_loss_lr_0p001.png |
+| linear_data_D | 0.1000 | 0.0824 | 0.2467 | 0.2870 | 0.9716 | report_assets/linear_regression/linear_data_D_loss_lr_0p1.png |
+| linear_data_D | 0.0100 | 0.0824 | 0.2467 | 0.2870 | 0.9716 | report_assets/linear_regression/linear_data_D_loss_lr_0p01.png |
+| linear_data_D | 0.0010 | 0.3540 | 0.4778 | 0.5950 | 0.8780 | report_assets/linear_regression/linear_data_D_loss_lr_0p001.png |

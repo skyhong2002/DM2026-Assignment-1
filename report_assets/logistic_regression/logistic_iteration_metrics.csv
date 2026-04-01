@@ -1,0 +1,13 @@
+dataset,learning_rate,n_iteration,Accuracy,Precision,Recall,F1-score,loss_curve_path
+logistic_data_A,0.01,500,0.8775,0.8783783783783784,0.8986175115207373,0.8883826879271071,report_assets/logistic_regression/logistic_data_A_iter_sweep_lr_0p01_iter_500.png
+logistic_data_A,0.01,1000,0.9025,0.9045454545454545,0.9170506912442397,0.9107551487414187,report_assets/logistic_regression/logistic_data_A_iter_sweep_lr_0p01_iter_1000.png
+logistic_data_A,0.01,1500,0.9025,0.908256880733945,0.9124423963133641,0.9103448275862069,report_assets/logistic_regression/logistic_data_A_iter_sweep_lr_0p01_iter_1500.png
+logistic_data_B,0.01,500,0.7625,0.76,0.8066037735849056,0.782608695652174,report_assets/logistic_regression/logistic_data_B_iter_sweep_lr_0p01_iter_500.png
+logistic_data_B,0.01,1000,0.7775,0.7782805429864253,0.8113207547169812,0.7944572748267898,report_assets/logistic_regression/logistic_data_B_iter_sweep_lr_0p01_iter_1000.png
+logistic_data_B,0.01,1500,0.7775,0.7782805429864253,0.8113207547169812,0.7944572748267898,report_assets/logistic_regression/logistic_data_B_iter_sweep_lr_0p01_iter_1500.png
+logistic_data_C,0.01,500,0.945625,0.9706572769953051,0.9302587176602924,0.9500287191269385,report_assets/logistic_regression/logistic_data_C_iter_sweep_lr_0p01_iter_500.png
+logistic_data_C,0.01,1000,0.974375,0.988479262672811,0.9651293588301463,0.9766647694934547,report_assets/logistic_regression/logistic_data_C_iter_sweep_lr_0p01_iter_1000.png
+logistic_data_C,0.01,1500,0.97875,0.9896907216494846,0.9718785151856018,0.9807037457434733,report_assets/logistic_regression/logistic_data_C_iter_sweep_lr_0p01_iter_1500.png
+logistic_data_D,0.01,500,0.91125,0.9345794392523364,0.9029345372460497,0.9184845005740528,report_assets/logistic_regression/logistic_data_D_iter_sweep_lr_0p01_iter_500.png
+logistic_data_D,0.01,1000,0.92625,0.9393592677345538,0.9266365688487584,0.9329545454545455,report_assets/logistic_regression/logistic_data_D_iter_sweep_lr_0p01_iter_1000.png
+logistic_data_D,0.01,1500,0.925625,0.9392898052691867,0.9255079006772009,0.9323479249573622,report_assets/logistic_regression/logistic_data_D_iter_sweep_lr_0p01_iter_1500.png
